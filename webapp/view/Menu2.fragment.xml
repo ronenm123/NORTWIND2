@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core">
+	<Menu itemSelected="onMenuAction2">
+		<MenuItem text="Hide Existing Sites2"/>
+		<MenuItem text="Simulate Visitor Traffic2"/>
+		<MenuItem text="Create New Site2">
+			<items>
+				<MenuItem text="Official Store2"/>
+				<MenuItem text="Partner Store2"/>
+				<MenuItem id="r1" text="Franchise Store2"/>
+				<MenuItem text="Temporary Store2"/>
+				<MenuItem text="Other2"/>
+			</items>
+		</MenuItem>
+		<MenuItem text="Export Map2"/>
+	</Menu>
+</core:FragmentDefinition>
